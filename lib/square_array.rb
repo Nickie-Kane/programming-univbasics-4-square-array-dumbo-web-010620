@@ -1,7 +1,7 @@
 def square_array(array)
   count = 0 
   while count < array.length
-     squ = array[count] ** 2
+     p squ = array[count] ** 2
      new_array = []
      new_array << squ
   count += 1 

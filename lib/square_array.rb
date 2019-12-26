@@ -1,11 +1,6 @@
 def square_array(array)
-  count = 0 
-  while count < array.length
-     p squ = array[count] ** 2
-     new_array = []
-     new_array << squ
-  count += 1 
-  end
+  array.each { |n| puts new_array << #{n} ** 2 }
+  
   return new_array
 end
 
